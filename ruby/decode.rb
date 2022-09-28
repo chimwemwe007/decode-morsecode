@@ -18,6 +18,7 @@ def decode_word(word)
   my_string
 end
 
+
 def decode_sentence(sentence)
   my_sentence = ''
   sentence.split('   ').each { |char| my_sentence += "#{decode_word(char)} " }
